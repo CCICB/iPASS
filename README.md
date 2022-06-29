@@ -15,7 +15,7 @@ The script that utilises the random forest algorithm that identified the iPASS s
 # Scripts
 All other scripts supplied are to generate the figures in the manuscript and are in the figures/ folder.
 
-# Software versions used
+# Software used
 We are so grateful to all these open source software developers for developing and maintaining these critical software.
 
 * STAR 
