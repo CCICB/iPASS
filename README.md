@@ -10,7 +10,8 @@ Methodology used for the analysis in this paper are as described in the manuscri
 The processed RNA-seq transcripts per million (TPM) counts for the 766 Immune Genes used in this analysis are available under the data/ folder.
 
 # iPASS generation and calculation
-The script that utilises the random forest algorithm that identified the iPASS signature is available under the ipass/ folder. In addition a script to calculate an individual tumours IPASS is provided in the ipass/ folder. It takes as input a matrix of gene TPM values and will output a score. A score >=0.83 is indicative of a T-cell infiltrated tumour and <0.83 an immune cold tumour.
+A script to calculate an individual tumours IPASS is provided in the IPASS/ folder. It takes as input a matrix of gene TPM values and will output a score. A score >=0.83 is indicative of a T-cell infiltrated tumour and <0.83 an immune cold tumour. One needs to only clone this folder to run IPASS on your samples.
+The script that utilises the random forest algorithm that identified the iPASS signature is also available under the IPASS/ folder.
 
 # Scripts
 All other scripts supplied are to generate the figures in the manuscript and are in the figures/ folder.
@@ -29,3 +30,8 @@ We are so grateful to all these open source software developers for developing a
 * pVACseq
 * NetMHCons
 * R 
+
+#Funding
+With thanks we are grateful to all the funding organisations that made this work possible.
+We would like to acknowledge Luminesce Alliance – Innovation for Children’s Health for its contribution and support. Luminesce Alliance, is a not-for-profit cooperative joint venture between the Sydney Children’s Hospitals Network, the Children’s Medical Research Institute, and the Children’s Cancer Institute. It has been established with the support of the NSW Government to coordinate and integrate paediatric research. Luminesce Alliance is also affiliated with the University of Sydney and the University of New South Wales Sydney. 
+We would also like to thank the Medical Research Future Fund through the Emerging Priorities and Consumer Driven Research Scheme, Australian Brain Cancer Mission, the Minderoo Foundation's Collaborate Against Cancer Initiatives, the National Health & Medical Reseearch Council Lifting Clinical Trials and Registry Capacity and Cancer Institute New South Wales Program Grants.
