@@ -10,8 +10,7 @@ Methodology used for the analysis in this paper are as described in the manuscri
 The processed RNA-seq transcripts per million (TPM) counts for the 766 Immune Genes used in this analysis are available under the data/ folder.
 
 # iPASS generation and calculation
-A script to calculate an individual tumours IPASS is provided in the IPASS/ folder. It takes as input a matrix of gene TPM values and will output a score. A score >=0.83 is indicative of a T-cell infiltrated tumour and <0.83 an immune cold tumour. One needs to only clone this folder to run IPASS on your samples.
-The script that utilises the random forest algorithm that identified the iPASS signature is also available under the IPASS/ folder.
+A script to calculate an individual tumours IPASS is provided in the IPASS/ folder. It takes as input a matrix of gene TPM values and will output a score. A score >=0.83 is indicative of a T-cell infiltrated tumour and <0.83 an immune cold tumour. 
 
 # Software used
 We are so grateful to all these open source software developers for developing and maintaining these critical software.
