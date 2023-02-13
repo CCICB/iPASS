@@ -1,7 +1,7 @@
 # A novel transcriptional signature identifies T-cell infiltration in high-risk paediatric cancer 
-Mayoh, C et al. 2022
+Mayoh, C et al. 2023
 
-This repository contains scripts and figure generation code used for this publication. They are shared as is, with no warranty.
+This repository contains the RNA-seq dataset (raw counts, TPM) for the 777 immune genes used in the analysis for this paper. It also contains the script to calculate the IPASS score. The data and scripts are shared as is, with no warranty.
 
 # Methodology
 Methodology used for the analysis in this paper are as described in the manuscript.
@@ -12,9 +12,6 @@ The processed RNA-seq transcripts per million (TPM) counts for the 766 Immune Ge
 # iPASS generation and calculation
 A script to calculate an individual tumours IPASS is provided in the IPASS/ folder. It takes as input a matrix of gene TPM values and will output a score. A score >=0.83 is indicative of a T-cell infiltrated tumour and <0.83 an immune cold tumour. One needs to only clone this folder to run IPASS on your samples.
 The script that utilises the random forest algorithm that identified the iPASS signature is also available under the IPASS/ folder.
-
-# Scripts
-All other scripts supplied are to generate the figures in the manuscript and are in the figures/ folder.
 
 # Software used
 We are so grateful to all these open source software developers for developing and maintaining these critical software.
