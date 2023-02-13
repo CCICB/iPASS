@@ -1,7 +1,7 @@
 # A novel transcriptional signature identifies T-cell infiltration in high-risk paediatric cancer 
 Mayoh, C et al. 2023
 
-This repository contains the RNA-seq dataset (raw counts, TPM) for the 777 immune genes used in the analysis for this paper. It also contains the script to calculate the IPASS score. The data and scripts are shared as is, with no warranty.
+This repository contains the RNA-seq dataset (raw counts, TPM) for the 766 immune genes used in the analysis for this paper. It also contains the script to calculate the IPASS score. The data and scripts are shared as is, with no warranty.
 
 # Methodology
 Methodology used for the analysis in this paper are as described in the manuscript.
